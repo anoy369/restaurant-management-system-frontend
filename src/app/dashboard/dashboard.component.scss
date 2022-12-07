@@ -71,6 +71,11 @@ body {
   .button:hover {
     background-color: #555;
   }
+  .mat-card{
+    width: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
   
   @media screen and (max-width: 650px) {
     .column {
