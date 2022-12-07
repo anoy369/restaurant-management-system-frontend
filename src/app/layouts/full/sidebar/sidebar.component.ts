@@ -1,12 +1,15 @@
-import jwt_decode from 'jwt-decode';
 import { ChangeDetectorRef, Component, OnDestroy } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { MenuItems } from 'src/app/shared/menu-items';
+import jwt_decode from 'jwt-decode';
+
+
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
   styleUrls: []
 })
+
 export class AppSidebarComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
   token:any = localStorage.getItem('token');
