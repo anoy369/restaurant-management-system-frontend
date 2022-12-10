@@ -1,0 +1,16 @@
+.float-right{
+    float: right
+}
+
+mat-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+}
+td:first-child, td:nth-child(2){
+    text-transform: capitalize;
+}

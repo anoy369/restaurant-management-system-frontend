@@ -25,4 +25,10 @@ export class CategoryService {
   getCategory(){
     return this.http.get(this.url+'/category/get')
   }
+
+  delete(id:any){
+    return this.http.patch(this.url+'/category/delete/'+id,{
+      headers: new HttpHeaders().set('content-Type',"application/json")
+    })
+  }
 }

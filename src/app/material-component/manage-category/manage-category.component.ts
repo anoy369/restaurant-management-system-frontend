@@ -83,4 +83,8 @@ export class ManageCategoryComponent implements OnInit {
     })
   }
 
+  handleDeleteAction(values:any){
+    
+  }
+
 }
